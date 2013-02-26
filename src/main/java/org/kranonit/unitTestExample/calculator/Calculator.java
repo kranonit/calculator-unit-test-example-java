@@ -5,7 +5,7 @@ public class Calculator {
         return a + b;
     }
     public int minus(int a, int b) {
-        return a - b;  // ERROR!!!
+        return b - a;  // ERROR!!!
     }
     public int divide(int a, int b) {
         return a / b;
