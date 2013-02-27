@@ -1,4 +1,4 @@
-package org.kranonit.unitTestExample.calculator;
+package com.github.stokito.unitTestExample.calculator;
 
 public class Calculator {
 

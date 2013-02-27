@@ -1,4 +1,4 @@
-package org.kranonit.unitTestExample.calculator;
+package com.github.stokito.unitTestExample.calculator;
 
 import junit.framework.Assert;
 import org.junit.Test;
