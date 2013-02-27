@@ -7,6 +7,42 @@
     <groupId>com.github.stokito</groupId>
     <artifactId>calculator-unit-test-example-java</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>Calculator unit test example in Java</name>
+    <description>Simple jUnit test example</description>
+    <url>http://stokito.blogspot.com/2013/02/blog-post_27.html</url>
+    <inceptionYear>2013</inceptionYear>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:https://github.com/stokito/calculator-unit-test-example-java.git</connection>
+        <url>https://github.com/stokito/calculator-unit-test-example-java</url>
+    </scm>
+
+    <issueManagement>
+        <url>https://github.com/stokito/calculator-unit-test-example-java/issues</url>
+    </issueManagement>
+
+    <developers>
+        <developer>
+            <id>stokito</id>
+            <name>Sergey Ponomarev</name>
+            <email>stokito@gmail.com</email>
+            <url>http://stokito.name</url>
+            <timezone>+2</timezone>
+            <properties>
+                <gtalk>stokito@gmail.com</gtalk>
+                <skype>stokito</skype>
+            </properties>
+        </developer>
+    </developers>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
