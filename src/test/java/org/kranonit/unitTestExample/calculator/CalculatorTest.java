@@ -3,18 +3,19 @@ package org.kranonit.unitTestExample.calculator;
 import junit.framework.Assert;
 import org.junit.Test;
 
-import java.io.IOException;
-
 public class CalculatorTest {
     @Test public void testSum() {
+		// Given
         Calculator calculator = new Calculator();
-        int result = calculator.sum(4, 2);
-        Assert.assertEquals(6, result);
+		// When
+        int result = calculator.sum(2, 2);
+		// Then
+        Assert.assertTrue(result == 4);
     }
 
     @Test public void testMinus() {
         Calculator calculator = new Calculator();
-        Assert.assertEquals(1, calculator.minus(3, 2));
+        Assert.assertEquals(0, calculator.minus(2, 2));
     }
 
     @Test public void testDivide() {
@@ -22,9 +23,9 @@ public class CalculatorTest {
         Assert.assertEquals(2, calculator.divide(6, 3));
     }
 
-    @Test(expected = Exception.class)
+    @Test(expected = ArithmeticException.class)
     public void testDivideWillThrowExceptionWhenDivideOnZero() {
         Calculator calculator = new Calculator();
-        calculator.divide(3, 0);
+        calculator.divide(6, 0);
     }
 }
