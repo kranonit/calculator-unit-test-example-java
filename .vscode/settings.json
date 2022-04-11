@@ -14,12 +14,12 @@
         },
         {
             "text": "HACK:",
-            "color": "#000",
+            "color": "#001",
             "isWholeLine": false,
         },
         {
             "text": "TODO:",
-            "color": "yellow",
+            "color": "blue",
             "border": "1px solid red",
             "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
             "backgroundColor": "rgba(0,0,0,.2)",

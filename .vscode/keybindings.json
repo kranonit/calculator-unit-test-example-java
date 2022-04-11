@@ -1,0 +1,37 @@
+// Поместите настраиваемые сочетания клавиш в этот файл, чтобы переопределить сочетания клавиш по умолчанию.auto[]
+[
+    {
+        "key": "]",
+        "command": "workbench.action.configureLocale"
+    },
+    {
+        "key": "ctrl+]",
+        "command": "java.open.formatter.settings"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "workbench.action.openWorkspaceSettings"
+    },
+    {
+        "key": "ctrl+numpad3",
+        "command": "workbench.action.openSettingsJson"
+    },
+    {
+        "key": "ctrl+numpad4",
+        "command": "workbench.action.configureLanguageBasedSettings"
+    },
+    {
+        "key": "ctrl+numpad9",
+        "command": "workbench.action.openSettings2"
+    },
+    {
+        "key": "ctrl+numpad5",
+        "command": "workbench.action.editor.changeLanguageMode",
+        "when": "!notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+k m",
+        "command": "-workbench.action.editor.changeLanguageMode",
+        "when": "!notebookEditorFocused"
+    }
+]
